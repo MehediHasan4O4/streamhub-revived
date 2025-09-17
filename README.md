@@ -1,73 +1,146 @@
-# Welcome to your Lovable project
+# StreamVibe - Premium Streaming Platform
 
-## Project info
+A modern, responsive streaming platform built with React, TypeScript, and Tailwind CSS. StreamVibe offers a Netflix-like experience with a sleek dark theme and vibrant cyan accents.
 
-**URL**: https://lovable.dev/projects/237724ab-314e-41ac-b7fd-2a59188e71d6
+## 🌟 Features
 
-## How can I edit this code?
+- **Modern Dark UI**: Premium dark theme with cyan accent colors
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Component-Based Architecture**: Clean, maintainable React components
+- **TypeScript Support**: Full type safety throughout the application
+- **Accessibility**: Proper semantic HTML and ARIA labels
+- **Design System**: Comprehensive design tokens and component variants
 
-There are several ways of editing your application.
+## 🚀 Live Demo
 
-**Use Lovable**
+Visit the live application: [https://streamhub-three.vercel.app](https://streamhub-three.vercel.app)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/237724ab-314e-41ac-b7fd-2a59188e71d6) and start prompting.
+## 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React 18, TypeScript
+- **Styling**: Tailwind CSS, CSS Variables
+- **UI Components**: Shadcn/ui (customized)
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
+- **Build Tool**: Vite
+- **Deployment**: Vercel
 
-**Use your preferred IDE**
+## 📱 Key Components
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Layout Components
+- **ResponsiveLayout**: Handles mobile/desktop layout switching
+- **Sidebar**: Navigation sidebar with active states
+- **Header**: Top navigation with search functionality
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Content Components
+- **HeroSection**: Main banner with call-to-action buttons
+- **StatsSection**: Platform statistics display
+- **CategoriesSection**: Content category grid
+- **TrendingSection**: Featured content carousel
+- **Footer**: Site footer with links and social media
 
-Follow these steps:
+## 🎨 Design System
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The application uses a comprehensive design system with:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Color Palette**: Dark theme with cyan (#00B4D8) as primary color
+- **Typography**: Clean, modern font hierarchy
+- **Spacing**: Consistent 8px grid system
+- **Components**: Reusable UI components with multiple variants
+- **Animations**: Smooth transitions and hover effects
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🏗️ Project Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # Base UI components (shadcn/ui)
+│   ├── Header.tsx      # Top navigation
+│   ├── Sidebar.tsx     # Side navigation
+│   ├── HeroSection.tsx # Main hero section
+│   └── ...
+├── pages/              # Page components
+│   ├── Index.tsx       # Home page
+│   └── NotFound.tsx    # 404 page
+├── assets/             # Images and static assets
+├── lib/                # Utilities and helpers
+└── index.css           # Global styles and design tokens
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/MehediHasan4O4/StreamHub.git
+cd StreamHub
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open [http://localhost:8080](http://localhost:8080) in your browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 Key Features Implemented
 
-## What technologies are used for this project?
+### ✅ Fixed Issues
+- **Broken Images**: Replaced with AI-generated category and movie posters
+- **Routing**: Implemented proper React Router navigation
+- **Responsive Design**: Mobile-first responsive layout
+- **Type Safety**: Full TypeScript implementation
+- **Design Consistency**: Unified design system
 
-This project is built with:
+### ✅ Enhancements
+- **Premium UI**: Modern dark theme with glowing effects
+- **Interactive Elements**: Hover states and smooth animations
+- **Mobile Navigation**: Collapsible sidebar for mobile devices
+- **SEO Optimization**: Proper meta tags and semantic HTML
+- **Performance**: Optimized images and efficient component structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎨 Customization
 
-## How can I deploy this project?
+The design system is fully customizable through CSS variables in `src/index.css`:
 
-Simply open [Lovable](https://lovable.dev/projects/237724ab-314e-41ac-b7fd-2a59188e71d6) and click on Share -> Publish.
+```css
+:root {
+  --primary: 189 94% 43%;     /* Cyan brand color */
+  --background: 220 27% 4%;   /* Dark background */
+  --card: 220 27% 6%;         /* Card background */
+  /* ... more variables */
+}
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is licensed under the MIT License.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 💬 Support
+
+If you have any questions or need help with the project, please open an issue on GitHub.
+
+---
+
+Built with ❤️ using modern web technologies
